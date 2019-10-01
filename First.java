@@ -9,5 +9,7 @@ class First{
                 String str = sc.nexrLine();
                 pr.printf("Hello %s, Welcome to my page",str);
                 
+                pr.close();
+                sc.close();
         }
 }
